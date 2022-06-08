@@ -30,4 +30,6 @@ const houseResult = document.getElementById('house_roll');
 playerBtn.addEventListener('click', function () {
   let playerRoll = Math.floor(Math.random() * 5 + 1);
   console.log('giocatore', playerRoll);
+  playerResult.innerHTML = `Il risultato del tuo lancio è ${playerRoll}`;
+  houseResult.innerHTML = `Il risultato del lancio del banco è ${houseRoll}`;
 });
