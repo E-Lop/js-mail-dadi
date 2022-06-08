@@ -25,6 +25,8 @@ console.log('banco', houseRoll);
 // variabili per i target dei numeri casuali in HTML
 const playerResult = document.getElementById('player_roll');
 const houseResult = document.getElementById('house_roll');
+// variabile per output messaggio esito partita
+const resultMessage 
 
 // alla pressione del bottone si genera il numero casuale per il giocatore
 playerBtn.addEventListener('click', function () {
@@ -33,3 +35,7 @@ playerBtn.addEventListener('click', function () {
   playerResult.innerHTML = `Il risultato del tuo lancio è ${playerRoll}`;
   houseResult.innerHTML = `Il risultato del lancio del banco è ${houseRoll}`;
 });
+
+if (playerRoll > houseRoll) {
+
+}
