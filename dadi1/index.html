@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Partita a dadi</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Giochiamo a dadi</h1>
+    <div class="interface_container">
+      <!-- bottone per effettuare il lancio per il giocatore -->
+      <section class="top_section">
+        <button id="player_btn">Lancia il tuo dado!</button>
+      </section>
+
+      <div class="middle_section">
+        <div class="col">
+          <!-- contenitore input giocatore -->
+          <h2>Il tuo lancio</h2>
+          <span id="player_roll"></span>
+        </div>
+
+        <div class="col">
+          <!-- contenitore input banco -->
+          <h2>Lancio del banco</h2>
+          <span id="house_roll"></span>
+        </div>
+      </div>
+
+      <section class="bottom_section">
+        <div id="result_message"></div>
+      </section>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
