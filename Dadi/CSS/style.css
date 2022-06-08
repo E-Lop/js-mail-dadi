@@ -5,8 +5,36 @@
   box-sizing: border-box;
 }
 
+/* MAIN */
+
 h1 {
   font-size: 3rem;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.interface_container {
+  background-color: aquamarine;
+  width: 90%;
+  margin: 0 auto;
+
+  /* todo test */
+  height: 500px;
+}
+.top_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+button {
+  margin: 0 auto;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+/* sezione con campi risultati lancio */
+#player_roll {
 }

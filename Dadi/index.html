@@ -9,16 +9,22 @@
   </head>
   <body>
     <h1>Giochiamo a dadi</h1>
-    <!-- bottone per effettuare il lancio per il giocatore -->
-    <button id="player_btn">Lancia il tuo dado!</button>
+    <div class="interface_container">
+      <!-- bottone per effettuare il lancio per il giocatore -->
+      <section class="top_section">
+        <button id="player_btn">Lancia il tuo dado!</button>
+      </section>
 
-    <!-- contenitore input giocatore -->
-    <div id="player_roll"></div>
+      <div class="middle_section">
+        <!-- contenitore input giocatore -->
+        <div id="player_roll"></div>
 
-    <!-- contenitore input banco -->
-    <div id="house_roll"></div>
+        <!-- contenitore input banco -->
+        <div id="house_roll"></div>
+      </div>
 
-    <div id="result_message"></div>
+      <div id="result_message"></div>
+    </div>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
